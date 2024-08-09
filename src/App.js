@@ -16,6 +16,7 @@ function App() {
         <IncomeExpences />
         <TransactionList />
         <AddTransaction />
+        
       </div>
     </div>
   );
