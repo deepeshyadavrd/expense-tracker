@@ -27,7 +27,9 @@ export const GlobalProvider =  ({ children }) => {
     }
 
     return (<GlobalContext.Provider value={{
-        transactions:state.transactions
+        transactions:state.transactions,
+        deleteTransaction
+
     }}>
         {children}
     </GlobalContext.Provider>)
